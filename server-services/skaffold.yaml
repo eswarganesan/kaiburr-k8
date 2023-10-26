@@ -1,0 +1,13 @@
+apiVersion: skaffold/v4beta7
+kind: Config
+metadata:
+  name: server-services
+build:
+  artifacts:
+    - image: r.subash/server-services
+      buildpacks:
+        builder: gcr.io/buildpacks/builder:v1
+manifests:
+  rawYaml:
+    - target/classes/META-INF/dekorate/kubernetes.json
+    - target/classes/META-INF/dekorate/kubernetes.yml

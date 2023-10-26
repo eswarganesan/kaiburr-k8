@@ -1,0 +1,11 @@
+META-INF\dekorate\kubernetes.json
+com\spring\test\config\SwaggerConfig.class
+META-INF\dekorate\kubernetes.yml
+com\spring\test\model\Id.class
+com\spring\test\controller\ServerController.class
+com\spring\test\exception\NotFoundException.class
+com\spring\test\repository\ServerRepository.class
+com\spring\test\model\Name.class
+com\spring\test\config\AppMongoConfig.class
+com\spring\test\model\Server.class
+com\spring\test\ServerApplication.class

@@ -1,0 +1,48 @@
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {
+          background-color: #FFEBCD;
+          background-size: cover;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background to your container */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin: 20px auto;
+            max-width: 400px;
+            text-align: center; /* Center-align the container contents */
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <table>
+        <tr>
+            <th>id</th>
+            <td th:text="${result.id}">1</td>
+        </tr>
+        <tr>
+            <th>name</th>
+            <td th:text="${result.name}">1</td>
+        </tr>
+        <tr>
+            <th>language</th>
+            <td th:text="${result.language}">1</td>
+        </tr>
+        <tr>
+            <th>framework</th>
+            <td th:text="${result.framework}">1</td>
+        </tr>
+    </table>
+
+
+</div>
+</body>
+<html>
