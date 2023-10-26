@@ -3,6 +3,10 @@
 
 **Create a Kubernets yaml mainfests for the application by the use of dekorate**
 
+
+<img width="745" alt="image" src="https://github.com/eswarganesan/kaiburr-k8/assets/104221146/693754a5-1f53-41f9-ab0f-967c754fe4c8">
+
+
 **skaffold yaml file creation**
 
 
